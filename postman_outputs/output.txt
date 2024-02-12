@@ -13,7 +13,7 @@ Example 1 Output from postman :-
     }
 }
 
-Example 2 output from postman :- 
+Example 2 output from postman :-
 
 {
     "points": {
