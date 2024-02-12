@@ -103,7 +103,6 @@ function calculatePoints(receipt) {
     });
 
     // Rule 6: 6 points if the day in the purchase date is odd
-    // Rule 6: 6 points if the day of the month in the purchase date is odd
     const purchaseDate = new Date(receipt.purchaseDate);
     const dayOfMonth = parseInt(receipt.purchaseDate.split('-')[2]); // Extract day from date string
 
