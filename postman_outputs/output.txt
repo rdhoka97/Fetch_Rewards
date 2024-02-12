@@ -1,0 +1,29 @@
+Example 1 Output from postman :-
+
+{
+    "points": {
+        "points": 28,
+        "breakdown": [
+            "6 points - retailer name has 6 alphanumeric characters",
+            "10 points - 5 items (10 pairs @ 5 points each)",
+            "3 points - \"Emils Cheese Pizza\" is 18 characters (a multiple of 3)",
+            "3 points - \"   Klarbrunn 12-PK 12 FL OZ  \" is 24 characters (a multiple of 3)",
+            "6 points - purchase day is odd"
+        ]
+    }
+}
+
+Example 2 output from postman :- 
+
+{
+    "points": {
+        "points": 109,
+        "breakdown": [
+            "14 points - retailer name has 14 alphanumeric characters",
+            "50 points - total is a round dollar amount",
+            "25 points - total is a multiple of 0.25",
+            "10 points - 4 items (10 pairs @ 5 points each)",
+            "10 points - 14:33 is between 2:00pm and 4:00pm"
+        ]
+    }
+}
